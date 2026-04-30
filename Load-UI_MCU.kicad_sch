@@ -1649,7 +1649,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "MSPM03509-PCB:MSPM0G3507SPMR"
+		(symbol "MSPM0G3507SPMR:MSPM0G3507SPMR"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -13337,7 +13337,7 @@
 		)
 	)
 	(symbol
-		(lib_id "MSPM03509-PCB:MSPM0G3507SPMR")
+		(lib_id "MSPM0G3507SPMR:MSPM0G3507SPMR")
 		(at 105.41 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13361,7 +13361,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MSPM03507:QFP50P1200X1200X160-64N"
+		(property "Footprint" "QFP50P1200X1200X160-64N"
 			(at 177.8 143.18 0)
 			(effects
 				(font
