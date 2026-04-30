@@ -1,0 +1,11 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "MSPM0G3507SPMR")(type "KiCad")(uri "${KIPRJMOD}/mylib/LIB_MSPM0G3507SPMR/MSPM0G3507SPMR/KiCad/MSPM0G3507SPMR.kicad_sym")(options "")(descr ""))
+  (lib (name "TI-LDO")(type "KiCad")(uri "${KIPRJMOD}/mylib/LIB_TPS73533DRVT/TPS73533DRVT/KiCad/TPS73533DRVT.kicad_sym")(options "")(descr ""))
+  (lib (name "INA229")(type "KiCad")(uri "${KIPRJMOD}/mylib/ul_INA229AQDGSRQ1/KiCADv6/2026-03-15_23-36-43.kicad_sym")(options "")(descr ""))
+  (lib (name "MCP45HV51")(type "KiCad")(uri "${KIPRJMOD}/mylib/LIB_MCP45HV51-103E_ST/MCP45HV51-103E_ST/KiCad/MCP45HV51-103E_ST.kicad_sym")(options "")(descr ""))
+  (lib (name "TC4429CPA")(type "KiCad")(uri "${KIPRJMOD}/mylib/LIB_TC4429CPA/TC4429CPA/KiCad/TC4429CPA.kicad_sym")(options "")(descr ""))
+  (lib (name "MCP41HV51")(type "KiCad")(uri "${KIPRJMOD}/mylib/LIB_MCP41HV51-103E_ST/MCP41HV51-103E_ST/KiCad/MCP41HV51-103E_ST.kicad_sym")(options "")(descr ""))
+  (lib (name "TPS61046YFFR")(type "KiCad")(uri "${KIPRJMOD}/mylib/LIB_TPS61046YFFR/TPS61046YFFR/KiCad/TPS61046YFFR.kicad_sym")(options "")(descr ""))
+  (lib (name "PowerMUX")(type "KiCad")(uri "${KIPRJMOD}/mylib/LIB_TPS2121RUXR/TPS2121RUXR/KiCad/TPS2121RUXR.kicad_sym")(options "")(descr ""))
+)
