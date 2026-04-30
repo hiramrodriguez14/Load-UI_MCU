@@ -1,4 +1,7 @@
-# KiCad temp/backups
+# KiCad autosave / temp
+#auto_saved_files#
+_autosave-*
+*.lck# KiCad temp/backups
 *.bak
 *.kicad_prl
 *-backups/

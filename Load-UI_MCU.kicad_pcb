@@ -9381,7 +9381,7 @@
 		(at 193.05 59.95)
 		(descr "Generic 6mm SW tactile push button")
 		(tags "tact sw push 6mm")
-		(property "Reference" "SW1"
+		(property "Reference" "NRST"
 			(at 3.25 -2 0)
 			(layer "F.SilkS")
 			(uuid "b4ebd2b5-9f1c-4f0b-83f5-e5b0bc6c7fa9")

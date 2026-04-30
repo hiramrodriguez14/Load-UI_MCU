@@ -13361,7 +13361,7 @@
 				)
 			)
 		)
-		(property "Footprint" "QFP50P1200X1200X160-64N"
+		(property "Footprint" "MSPM0SPMR:QFP50P1200X1200X160-64N"
 			(at 177.8 143.18 0)
 			(effects
 				(font
