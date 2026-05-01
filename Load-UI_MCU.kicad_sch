@@ -3997,107 +3997,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:GNDA"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "GNDA"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GNDA_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GNDA_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
 	(rectangle
 		(start 13.97 13.97)
@@ -4474,8 +4373,16 @@
 		(uuid "fc1af470-2343-4851-b84b-0c406d725692")
 	)
 	(no_connect
+		(at 54.61 115.57)
+		(uuid "03318d03-f780-494e-b372-c7e387d84c8e")
+	)
+	(no_connect
 		(at 255.27 120.65)
 		(uuid "0b94b555-36ca-4f6e-add4-9abc033ae476")
+	)
+	(no_connect
+		(at 54.61 110.49)
+		(uuid "1441b10a-3a2d-455a-ba48-10d74e8a63c8")
 	)
 	(no_connect
 		(at 255.27 129.54)
@@ -4524,6 +4431,10 @@
 	(no_connect
 		(at 138.43 40.64)
 		(uuid "948a39dd-4d85-4e11-b3fd-80d39c83f3cf")
+	)
+	(no_connect
+		(at 64.77 113.03)
+		(uuid "98ffeae2-9048-45b7-a329-dc0b5cc6ae01")
 	)
 	(no_connect
 		(at 125.73 40.64)
@@ -10469,6 +10380,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 231.14 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "32998392-ceae-461d-b703-954e9fd29f28")
+		(property "Reference" "#PWR03"
+			(at 231.14 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 231.14 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 231.14 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 231.14 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 231.14 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ef6699e1-a0f5-4683-9945-222fd8493b55")
+		)
+		(instances
+			(project "Load-UI_MCU"
+				(path "/526b8b14-d04c-43b9-8d25-bcbd5ccf5c4d"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 218.44 30.48 90)
 		(unit 1)
@@ -10494,7 +10471,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 218.44 32.258 90)
 			(effects
 				(font
@@ -10933,72 +10910,6 @@
 			(project ""
 				(path "/526b8b14-d04c-43b9-8d25-bcbd5ccf5c4d"
 					(reference "#PWR082")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDA")
-		(at 231.14 49.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "485c7ead-7c70-4c38-8288-4c03c6c6757b")
-		(property "Reference" "#PWR03"
-			(at 231.14 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDA"
-			(at 231.14 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 231.14 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 231.14 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 231.14 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f862297b-4440-4fee-813a-acd109174e9d")
-		)
-		(instances
-			(project "Load-UI_MCU"
-				(path "/526b8b14-d04c-43b9-8d25-bcbd5ccf5c4d"
-					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -14005,7 +13916,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 219.4052 63.5 0)
 			(effects
 				(font
@@ -14517,7 +14428,7 @@
 				(justify right)
 			)
 		)
-		(pin "ConverterIN_MISO" input
+		(pin "ConverterIN_MISO" output
 			(at 45.72 135.89 0)
 			(uuid "547c44e6-2e19-44bb-a5f5-e8de726915d5")
 			(effects
@@ -14567,7 +14478,7 @@
 				(justify right)
 			)
 		)
-		(pin "ConverterOUT_MISO" input
+		(pin "ConverterOUT_MISO" output
 			(at 45.72 156.21 0)
 			(uuid "00e96175-e6ce-4173-a517-15afbd598e30")
 			(effects
