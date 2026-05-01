@@ -12,7 +12,7 @@ C10,1,1u,,,,Capacitor_SMD:C_0402_3216Metric_Pad1.33x1.80mm_HandSolder,~,C52923
 D1,1,YELLOW,,,,LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~,C2296
 D2,1,RED,,,,LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder,~,C2286
 "D3,D4,D5",3,LED,,,,LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~,C2296
-IC1,1,MSPM0G3519SPMR,,,,MSPM0SPMR:QFP50P1200X1200X160-64N,https://www.ti.com/lit/ds/symlink/mspm0g3505.pdf?ts=1706855132968,C22389960
+IC1,1,MSPM0G3519SPMR,,,,MSPM0SPMR:QFP50P1200X1200X160-64N,https://www.ti.com/lit/ds/symlink/mspm0g3505.pdf?ts=1706855132968,C49259417
 IC2,1,TPS73533DRVT,,,,TPS73533DRVT:SON65P200X200X80-7N,http://www.ti.com/lit/ds/symlink/tps735.pdf,C48984
 IC3,1,TC4429CPA,,YES,,Package_DIP:CERDIP-8_W7.62mm_SideBrazed,https://ww1.microchip.com/downloads/en/DeviceDoc/21419D.pdf,
 IC4,1,TPS2121RUXR,,,,Package_DFN_QFN:Texas_VQFN-HR-12_2x2.5mm_P0.5mm,https://www.ti.com/lit/gpn/TPS2121,C485916
@@ -28,14 +28,14 @@ Q2,1,2N2219,,YES,,Package_TO_SOT_THT:TO-92_Inline,http://www.onsemi.com/pub_link
 R4,1,1k,,,,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,~,C17513
 R5,1,100k,,,,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,~,C25803
 "R6,R16",2,1k,,,,Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder,~,C4410
-R7,1,0R,,,,Resistor_SMD:R_0805_3216Metric_Pad1.30x1.75mm_HandSolder,~,C17477
+R7,1,0R,,,,Resistor_SMD:R_0402_3216Metric_Pad1.30x1.75mm_HandSolder,~,C17477
 "R10,R24,R25,R26",4,2.7k,,,,Resistor_SMD:R_0805_3216Metric_Pad1.30x1.75mm_HandSolder,~,C17530
 "R11,R27,R28,R29",4,3.3k,,,,Resistor_SMD:R_0805_3216Metric_Pad1.30x1.75mm_HandSolder,~,C26010
 R14,1,470,,YES,,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,~,
 "R15,R38",2,15m,,,,Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder,~,C601098
 "R17,R23,R30,R32",4,50,,,,Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,~,C25120
 R20,1,100,,YES,,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,~,
-"R22,R36, R40, R41",4,4.7k,,,,Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder,~,C177103
+"R22,R36, R40, R41",4,4.7k,,,,Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder,~,C17936
 RV1,1,,,YES,,Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical,,
 "R31,R37",2,10k,,,,Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder,~,C17902
 R39,1,51k,,,,Resistor_SMD:R_0805_3216Metric_Pad1.30x1.75mm_HandSolder,~,C17737
