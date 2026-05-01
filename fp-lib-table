@@ -1,8 +1,8 @@
 (fp_lib_table
   (version 7)
-  (lib (name "MSPM0SPMR")(type "KiCad")(uri "/Users/hiramraul11gmail.com/Micro 2/TurbineMCUJST/mylib/LIB_MSPM0G3507SPMR/MSPM0G3507SPMR/KiCad")(options "")(descr ""))
-  (lib (name "TPS73533DRVT")(type "KiCad")(uri "/Users/hiramraul11gmail.com/Micro 2/TurbineMCUJST/mylib/LIB_TPS73533DRVT/TPS73533DRVT/KiCad")(options "")(descr ""))
-  (lib (name "Digit_POT")(type "KiCad")(uri "/Users/hiramraul11gmail.com/Micro 2/TurbineMCUJST/mylib/LIB_MCP41HV51-103E_ST/MCP41HV51-103E_ST/KiCad")(options "")(descr ""))
-  (lib (name "TPS2121RUXR")(type "KiCad")(uri "/Users/hiramraul11gmail.com/Micro 2/TurbineMCUJST/mylib/LIB_TPS2121RUXR/TPS2121RUXR/KiCad")(options "")(descr ""))
-  (lib (name "Latch_PB")(type "KiCad")(uri "/Users/hiramraul11gmail.com/Micro 2/TurbineMCUJST/mylib/footprint/latch_button_KiCAD")(options "")(descr ""))
+  (lib (name "MSPM0SPMR")(type "KiCad")(uri "/Users/hiramraul11gmail.com/Micro2/TurbineMCUJST/mylib/LIB_MSPM0G3507SPMR/MSPM0G3507SPMR/KiCad")(options "")(descr ""))
+  (lib (name "TPS73533DRVT")(type "KiCad")(uri "/Users/hiramraul11gmail.com/Micro2/TurbineMCUJST/mylib/LIB_TPS73533DRVT/TPS73533DRVT/KiCad")(options "")(descr ""))
+  (lib (name "Digit_POT")(type "KiCad")(uri "/Users/hiramraul11gmail.com/Micro2/TurbineMCUJST/mylib/LIB_MCP41HV51-103E_ST/MCP41HV51-103E_ST/KiCad")(options "")(descr ""))
+  (lib (name "TPS2121RUXR")(type "KiCad")(uri "/Users/hiramraul11gmail.com/Micro2/TurbineMCUJST/mylib/LIB_TPS2121RUXR/TPS2121RUXR/KiCad")(options "")(descr ""))
+  (lib (name "Latch_PB")(type "KiCad")(uri "/Users/hiramraul11gmail.com/Micro2/TurbineMCUJST/mylib/footprint/latch_button_KiCAD")(options "")(descr ""))
 )
