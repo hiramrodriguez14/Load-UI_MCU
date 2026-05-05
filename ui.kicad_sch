@@ -2236,6 +2236,16 @@
 		)
 		(uuid "17c97b66-cd1f-4146-b3c0-bd569e738047")
 	)
+	(text "LCD"
+		(exclude_from_sim no)
+		(at 71.12 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "521c8fbe-e9e5-4866-881d-297a9c3765d5")
+	)
 	(text "VSS"
 		(exclude_from_sim no)
 		(at 43.688 66.802 0)
@@ -2265,6 +2275,16 @@
 			)
 		)
 		(uuid "940bde70-9f31-4715-b01a-97d257a24892")
+	)
+	(text "LED's"
+		(exclude_from_sim no)
+		(at 201.676 95.504 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b26aa45b-bcd3-4932-8d4d-3da6f91e49ed")
 	)
 	(text "UI Submodule"
 		(exclude_from_sim no)
@@ -2317,6 +2337,16 @@
 			)
 		)
 		(uuid "fc8e0460-33b1-4c48-bc6d-8423782b5760")
+	)
+	(text "LED's"
+		(exclude_from_sim no)
+		(at 198.882 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ff48c5be-13a2-4413-9546-4041da1db4e3")
 	)
 	(junction
 		(at 72.39 111.76)

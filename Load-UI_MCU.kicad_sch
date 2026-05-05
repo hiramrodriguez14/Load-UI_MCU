@@ -4154,6 +4154,29 @@
 		)
 		(uuid 452a449e-9423-451a-80ff-6aff2c16df87)
 	)
+	(arc
+		(start 171.45 16.51)
+		(mid 172.2699 13.6123)
+		(end 175.26 13.97)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 7f4c9b22-1f00-4ef8-804b-d8382fcbece3)
+	)
+	(text "To use higher voltages on gate driver and digital pot"
+		(exclude_from_sim no)
+		(at 201.93 14.224 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "09f2bf15-6a4c-4d9e-b497-24ca50f6dd9f")
+	)
 	(text "User Peripherals"
 		(exclude_from_sim no)
 		(at 111.506 193.04 0)
@@ -4266,6 +4289,16 @@
 			)
 		)
 		(uuid "410ab486-aace-4a40-848e-f26d3892e410")
+	)
+	(text "Latch button so we can control whether\nthe hand made or module converter will\nbe used."
+		(exclude_from_sim no)
+		(at 34.036 113.792 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "49e3fbf5-46be-4352-9b87-b977747302bc")
 	)
 	(text "SPI0 for both INA229"
 		(exclude_from_sim no)
@@ -4590,6 +4623,16 @@
 			(type default)
 		)
 		(uuid "01a01663-191f-4def-9202-75193e78f195")
+	)
+	(polyline
+		(pts
+			(xy 175.26 12.7) (xy 175.26 13.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "035da754-541e-491a-b5ec-17d214fb32d3")
 	)
 	(wire
 		(pts
@@ -5480,16 +5523,6 @@
 			(type default)
 		)
 		(uuid "3c587ae2-94f2-458a-8447-0160a86b2436")
-	)
-	(polyline
-		(pts
-			(xy 12.7 97.79) (xy 12.7 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3c7e0290-399d-4cdf-9a5d-4cf89e7dc033")
 	)
 	(wire
 		(pts
@@ -7160,6 +7193,16 @@
 			(type default)
 		)
 		(uuid "a28c41e6-99bb-4593-ae0e-11cc2ff29c07")
+	)
+	(polyline
+		(pts
+			(xy 173.99 13.97) (xy 175.26 13.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2b9b60e-36d7-4635-b4d0-5cb1212e9086")
 	)
 	(wire
 		(pts
