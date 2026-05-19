@@ -3874,7 +3874,7 @@
 		)
 		(uuid "134f04c4-b6ea-4346-b42a-468f6260182f")
 	)
-	(text "SPI1"
+	(text "SPI2\n"
 		(exclude_from_sim no)
 		(at 56.642 58.166 0)
 		(effects
@@ -4034,6 +4034,16 @@
 		)
 		(uuid "b5e8ec6f-42d6-42af-ae0f-ae2bb92d1741")
 	)
+	(text "I2C2"
+		(exclude_from_sim no)
+		(at 66.294 181.102 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "cfa8d55b-449e-44a1-910a-b338c5c2e0d9")
+	)
 	(text "Open Drain Pins"
 		(exclude_from_sim no)
 		(at 186.69 146.558 0)
@@ -4182,6 +4192,10 @@
 		(uuid "fc1af470-2343-4851-b84b-0c406d725692")
 	)
 	(no_connect
+		(at 146.05 40.64)
+		(uuid "19781bb9-fe1b-42d5-a2bc-8e8878a0caf6")
+	)
+	(no_connect
 		(at 181.61 109.22)
 		(uuid "2ae053af-6968-4224-b1c5-d36b25e60bce")
 	)
@@ -4196,10 +4210,6 @@
 	(no_connect
 		(at 128.27 40.64)
 		(uuid "4ba9fa0d-80ae-4d73-b225-664230bf1fe9")
-	)
-	(no_connect
-		(at 181.61 114.3)
-		(uuid "51a7ec54-63b1-4fea-a55a-e00554705d9a")
 	)
 	(no_connect
 		(at 105.41 83.82)
@@ -4314,6 +4324,16 @@
 			(type default)
 		)
 		(uuid "06829e06-b3a2-48fa-bfaf-76e9977cde21")
+	)
+	(wire
+		(pts
+			(xy 186.69 109.22) (xy 184.15 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07a3f251-7efa-414a-b34a-4c0e02a0a3ec")
 	)
 	(wire
 		(pts
@@ -4674,6 +4694,16 @@
 			(type default)
 		)
 		(uuid "1a3b7e2b-c46f-4a3e-b240-f16e920f954f")
+	)
+	(wire
+		(pts
+			(xy 143.51 38.1) (xy 147.32 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a7b1474-cf7a-4397-ae18-af4e1d180a8f")
 	)
 	(wire
 		(pts
@@ -5297,6 +5327,16 @@
 	)
 	(wire
 		(pts
+			(xy 181.61 114.3) (xy 184.15 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "443f9acb-46d1-4047-a30a-6eedf833d7e6")
+	)
+	(wire
+		(pts
 			(xy 148.59 157.48) (xy 148.59 158.75)
 		)
 		(stroke
@@ -5324,16 +5364,6 @@
 			(type default)
 		)
 		(uuid "46eecd80-b97a-4f74-82f5-f5508960f3e2")
-	)
-	(wire
-		(pts
-			(xy 146.05 38.1) (xy 146.05 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "47675dfa-29d0-4efa-9964-55113ab6d0fa")
 	)
 	(wire
 		(pts
@@ -6074,16 +6104,6 @@
 			(type default)
 		)
 		(uuid "700ad7db-ca90-4bbc-8514-bdd058c04444")
-	)
-	(wire
-		(pts
-			(xy 143.51 34.29) (xy 143.51 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "706b01d5-0feb-4488-8eb7-b4bd7cb5ffa8")
 	)
 	(polyline
 		(pts
@@ -7355,6 +7375,16 @@
 		)
 		(uuid "be6e57cc-7921-4f21-9e58-e7292793fc91")
 	)
+	(wire
+		(pts
+			(xy 184.15 109.22) (xy 184.15 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf2aaa36-fb5b-4593-9fe8-b4fd53d2af02")
+	)
 	(polyline
 		(pts
 			(xy 205.74 139.7) (xy 195.58 139.7)
@@ -8135,16 +8165,6 @@
 		)
 		(uuid "f4cdf20c-5ab8-4f80-b549-0be8d39b29e8")
 	)
-	(wire
-		(pts
-			(xy 147.32 38.1) (xy 146.05 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f59fcf79-2653-483e-bb28-4c1010cc4720")
-	)
 	(polyline
 		(pts
 			(xy 175.26 173.99) (xy 162.56 173.99)
@@ -8214,6 +8234,16 @@
 			(type default)
 		)
 		(uuid "fa457bef-6ef4-4b4e-a36f-26ab0ba14ba5")
+	)
+	(wire
+		(pts
+			(xy 143.51 38.1) (xy 143.51 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fadbe4a2-13d6-45f3-95c3-ed6884139dc2")
 	)
 	(wire
 		(pts
@@ -9298,7 +9328,7 @@
 	)
 	(global_label "UART0_TX_XDS"
 		(shape output)
-		(at 143.51 34.29 90)
+		(at 186.69 109.22 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9308,7 +9338,7 @@
 		)
 		(uuid "a6126450-e5be-4e5c-857b-62b749e814fe")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 143.51 17.6373 90)
+			(at 203.3427 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10587,7 +10617,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "4.7k"
 			(at 191.77 132.0799 0)
 			(effects
 				(font
@@ -14135,7 +14165,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f0043c78-2dcc-4221-a797-e9d84ab14898")
 		(property "Reference" "R8"
 			(at 184.15 126.9999 0)
@@ -14146,8 +14175,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k"
-			(at 184.15 129.5399 0)
+		(property "Value" "4.7k"
+			(at 183.642 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
