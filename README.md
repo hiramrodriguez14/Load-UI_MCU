@@ -221,7 +221,7 @@ HAWT-LoadUI-PCB
 | ------------------------ | ----------------------------------------------- |
 | HAWT-TurbineMCU-Firmware | Turbine control firmware |
 | HAWT-Load_Control_and_UI | Load Control & UI firmware |
-| TurbineMCU               | Turbine MCU PCB |
+| Turbine_MCU              | Turbine MCU PCB |
 
 ---
 
