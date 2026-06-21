@@ -97,11 +97,11 @@ Primary functions include:
 - Communication with the Turbine MCU
 
 <p align="center">
-  <img src="./images/system_architecture.png" width="900">
+  <img src="./images/loadui_architecture.png" width="900">
 </p>
 
 <p align="center">
-<b>Figure 1.</b> System Architecture
+<b>Figure 1.</b> Load & UI MCU Architecture
 </p>
 
 ---
