@@ -10,11 +10,11 @@ This repository contains the complete KiCad hardware design, manufacturing files
 
 # Documentation & Demo
 
-| Resource                 | Link                            |
+| Resource | Link |
 | ------------------------ | ------------------------------- |
-| 🎥 Project Demonstration | *(Add YouTube Link)*            |
-| 📄 Final Project Report  | *(Add Final Report Link)*       |
-| 📚 Technical Appendix    | *(Add Technical Appendix Link)* |
+| 🎥 Project Demonstration | https://www.youtube.com/watch?v=vS5Ok38P1Jk |
+| 📄 Final Project Report | https://drive.google.com/file/d/1cckKhvj7mvzCEbm3IqWp0KvrUp9g6mgg/view?usp=sharing |
+| 📚 Technical Appendix | https://drive.google.com/file/d/1xu7MtcffDlpna8_BUkwEc_BfjpQJpUep/view?usp=sharing |
 
 ---
 
@@ -30,22 +30,22 @@ The PCB was designed with debugging, manufacturability, and future expansion in 
 
 # Engineering Highlights
 
-* Custom 2-layer PCB
-* Designed in KiCad
-* Texas Instruments MSPM0G3519
-* Dual INA229 Power Monitors
-* SEPIC Converter Control
-* Battery Management System (BMS)
-* LCD User Interface
-* Push Button Interface
-* Status LEDs
-* UART Communication
-* microSD Card Interface
-* Relay Driver
-* Barrel Jack Power Input
-* Production-ready Gerber files
-* Pick-and-Place (CPL) files
-* Manufacturing BOM
+- Custom 2-layer PCB
+- Designed in KiCad
+- Texas Instruments MSPM0G3519
+- Dual INA229 Power Monitors
+- SEPIC Converter Control
+- Battery Management System (BMS)
+- LCD User Interface
+- Push Button Interface
+- Status LEDs
+- UART Communication
+- microSD Card Interface
+- Relay Driver
+- Barrel Jack Power Input
+- Production-ready Gerber files
+- Pick-and-Place (CPL) files
+- Manufacturing BOM
 
 ---
 
@@ -55,30 +55,30 @@ The PCB integrates the following subsystems:
 
 ### Power Management
 
-* Battery charging controller
-* SEPIC converter interface
-* Power monitoring
-* Relay control
-* Load protection
+- Battery charging controller
+- SEPIC converter interface
+- Power monitoring
+- Relay control
+- Load protection
 
 ### User Interface
 
-* 20×4 LCD connector
-* Navigation buttons
-* Record button
-* Start / Stop controls
-* Status LEDs
+- 20×4 LCD connector
+- Navigation buttons
+- Record button
+- Start / Stop controls
+- Status LEDs
 
 ### Communication
 
-* UART interface to Turbine MCU
-* Programming interface
-* Debug connectors
+- UART interface to Turbine MCU
+- Programming interface
+- Debug connectors
 
 ### Data Logging
 
-* microSD card socket
-* Real-Time Clock (RTC)
+- microSD card socket
+- Real-Time Clock (RTC)
 
 ---
 
@@ -88,19 +88,21 @@ The Load Control & UI PCB serves as the electrical management hub of the complet
 
 Primary functions include:
 
-* Battery charging
-* Converter control
-* Power measurement
-* User interaction
-* Data logging
-* Load protection
-* Communication with the Turbine MCU
+- Battery charging
+- Converter control
+- Power measurement
+- User interaction
+- Data logging
+- Load protection
+- Communication with the Turbine MCU
 
-**Suggested image**
+<p align="center">
+  <img src="./images/system_architecture.png" width="900">
+</p>
 
-`images/system_overview.png`
-
-*Figure 2 – Top-Level System View*
+<p align="center">
+<b>Figure 1.</b> System Architecture
+</p>
 
 ---
 
@@ -110,22 +112,58 @@ The board was designed using KiCad following standard PCB design practices for e
 
 Design considerations include:
 
-* Component placement optimization
-* Short signal routing
-* Power integrity
-* Ground plane utilization
-* Test point accessibility
-* Manufacturing compatibility
+- Component placement optimization
+- Short signal routing
+- Power integrity
+- Ground plane utilization
+- Test point accessibility
+- Manufacturing compatibility
 
-**Suggested images**
+## Top Layer
 
-`images/pcb_top.png`
+<p align="center">
+  <img src="./images/loaduimcu_frontlayer.png" width="900">
+</p>
 
-Top Layer PCB
+<p align="center">
+<b>Figure 2.</b> Top Layer PCB Layout
+</p>
 
-`images/pcb_bottom.png`
+---
 
-Bottom Layer PCB
+## Bottom Layer
+
+<p align="center">
+  <img src="./images/loaduimcu_backlayer.png" width="900">
+</p>
+
+<p align="center">
+<b>Figure 3.</b> Bottom Layer PCB Layout
+</p>
+
+---
+
+## Combined Layer View
+
+<p align="center">
+  <img src="./images/loaduimcu_bothlayer.png" width="900">
+</p>
+
+<p align="center">
+<b>Figure 4.</b> Combined PCB Layers
+</p>
+
+---
+
+## 3D PCB View
+
+<p align="center">
+  <img src="./images/loaduimcu_3Dview.png" width="900">
+</p>
+
+<p align="center">
+<b>Figure 5.</b> 3D PCB Rendering
+</p>
 
 ---
 
@@ -135,24 +173,24 @@ This repository includes all files required for PCB fabrication and assembly.
 
 Included manufacturing assets:
 
-* Gerber files
-* Drill files
-* Pick-and-Place (CPL)
-* BOM
-* Schematic
-* PCB Layout
+- Gerber files
+- Drill files
+- Pick-and-Place (CPL)
+- Bill of Materials (BOM)
+- Complete schematic
+- PCB layout
 
 ---
 
 # Development Tools
 
-### PCB Design
+## PCB Design
 
-* KiCad
+- KiCad
 
-### Target MCU
+## Target MCU
 
-* Texas Instruments MSPM0G3519
+- Texas Instruments MSPM0G3519
 
 ---
 
@@ -162,36 +200,37 @@ Included manufacturing assets:
 HAWT-LoadUI-PCB
 │
 ├── gerbers/                    Manufacturing Gerber files
-├── mylib/                       Custom KiCad component library
-├── Load-UI_MCU.kicad_pcb        PCB layout
-├── Load-UI_MCU.kicad_sch        Main schematic
-├── Load-UI_MCU.kicad_pro        KiCad project
-├── Load-UI_MCU-final.csv        Manufacturing BOM
-├── Load-UI_MCU-all-pos.csv      Pick-and-Place (CPL)
-├── load.kicad_sch               Power subsystem schematic
-├── ui.kicad_sch                 User Interface schematic
-├── README.md
-└── LICENSE
+├── images/                     Documentation images
+├── mylib/                      Custom KiCad component library
+├── Load-UI_MCU.kicad_pcb       PCB layout
+├── Load-UI_MCU.kicad_sch       Main schematic
+├── Load-UI_MCU.kicad_pro       KiCad project
+├── Load-UI_MCU-final.csv       Manufacturing BOM
+├── Load-UI_MCU-all-pos.csv     Pick-and-Place (CPL)
+├── load.kicad_sch              Power subsystem schematic
+├── ui.kicad_sch                User Interface schematic
+├── README.md                   Repository documentation
+└── LICENSE                     Project license
 ```
 
 ---
 
 # Related Repositories
 
-| Repository               | Description                |
-| ------------------------ | -------------------------- |
-| HAWT-TurbineMCU-Firmware | Turbine control firmware   |
+| Repository | Description |
+| ------------------------ | ----------------------------------------------- |
+| HAWT-TurbineMCU-Firmware | Turbine control firmware |
 | HAWT-Load_Control_and_UI | Load Control & UI firmware |
-| HAWT-TurbineMCU-PCB      | Turbine MCU PCB            |
+| HAWT-TurbineMCU-PCB | Turbine MCU PCB |
 
 ---
 
 # Authors
 
-* Hiram R. Rodríguez Hernández
-* José M. Burgos Guntín
-* Sergio A. Meléndez Padilla
-* Sergio A. Da Silva López
+- Hiram R. Rodríguez Hernández
+- José M. Burgos Guntín
+- Sergio A. Meléndez Padilla
+- Sergio A. Da Silva López
 
 Department of Electrical & Computer Engineering
 
